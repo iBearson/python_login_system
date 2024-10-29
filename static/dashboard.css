@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.dashboard-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dashboard-container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #6a11cb;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+th {
+    background-color: #6a11cb;
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* Hover effect for rows */
+}
+
+.logout-button {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 80%;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #6a11cb;
+}
+
+.update-button {
+    background-color: #2575fc; /* Main color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.update-button:hover {
+    background-color: #6a11cb; /* Change color on hover */
+}
+
+.delete-button {
+    background-color: #ff4d4d; /* Red color for delete */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.delete-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
